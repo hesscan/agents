@@ -29,6 +29,8 @@ Agents are automatically available in Claude Code. Simply describe your task and
 - "What's trending on TikTok that we could build?" → `trend-researcher`
 - "Our app reviews are dropping, what's wrong?" → `feedback-synthesizer`
 - "Make this loading screen more fun" → `whimsy-injector`
+- "Prepare discovery questions for our law firm prospect" → `discovery-prep-assistant`
+- "Generate our monthly financial report" → `monthly-finance-automator`
 
 ## 📁 Directory Structure
 
@@ -54,6 +56,7 @@ contains-studio-agents/
 │   ├── app-store-optimizer.md
 │   ├── b2b-prospector.md
 │   ├── content-creator.md
+│   ├── discovery-prep-assistant.md
 │   ├── growth-hacker.md
 │   ├── instagram-curator.md
 │   ├── linkedin-strategist.md
@@ -63,6 +66,7 @@ contains-studio-agents/
 ├── product/
 │   ├── business-process-analyst.md
 │   ├── feedback-synthesizer.md
+│   ├── opportunity-memo-synthesizer.md
 │   ├── sprint-prioritizer.md
 │   └── trend-researcher.md
 ├── project-management/
@@ -74,7 +78,9 @@ contains-studio-agents/
 │   ├── finance-tracker.md
 │   ├── infrastructure-maintainer.md
 │   ├── legal-compliance-checker.md
-│   ├── proposal-sow-generator.md
+│   ├── monthly-finance-automator.md
+│   ├── proposal-generator.md
+│   ├── sow-generator.md
 │   └── support-responder.md
 ├── testing/
 │   ├── api-tester.md
@@ -101,6 +107,7 @@ contains-studio-agents/
 ### Product Department (`product/`)
 - **business-process-analyst** - Optimize workflows and business operations
 - **feedback-synthesizer** - Transform complaints into features
+- **opportunity-memo-synthesizer** - Create strategic blueprints for pilot projects
 - **sprint-prioritizer** - Ship maximum value in 6 days
 - **trend-researcher** - Identify viral opportunities
 
@@ -108,6 +115,7 @@ contains-studio-agents/
 - **app-store-optimizer** - Dominate app store search results
 - **b2b-prospector** - Find and engage high-value business customers
 - **content-creator** - Generate content across all platforms
+- **discovery-prep-assistant** - Create personalized strategic questions for B2B calls
 - **growth-hacker** - Find and exploit viral growth loops
 - **instagram-curator** - Master the visual content game
 - **linkedin-strategist** - Build professional networks and B2B relationships
@@ -132,7 +140,9 @@ contains-studio-agents/
 - **finance-tracker** - Keep the studio profitable
 - **infrastructure-maintainer** - Scale without breaking the bank
 - **legal-compliance-checker** - Stay legal while moving fast
-- **proposal-sow-generator** - Create winning proposals and statements of work
+- **monthly-finance-automator** - Automate end-of-month financial reporting
+- **proposal-generator** - Create winning Phase 1 proposals
+- **sow-generator** - Generate detailed Statements of Work for pilot projects
 - **support-responder** - Turn angry users into advocates
 
 ### Testing & Benchmarking (`testing/`)
@@ -153,6 +163,9 @@ Some agents trigger automatically in specific contexts:
 - **test-writer-fixer** - After implementing features, fixing bugs, or modifying code
 - **whimsy-injector** - After UI/UX changes
 - **experiment-tracker** - When feature flags are added
+- **discovery-prep-assistant** - After B2B prospector reports are generated
+- **opportunity-memo-synthesizer** - After Phase 1 discovery sessions
+- **monthly-finance-automator** - When processing end-of-month financial documents
 
 ## 💡 Best Practices
 
