@@ -52,13 +52,16 @@ contains-studio-agents/
 │   └── test-writer-fixer.md
 ├── marketing/
 │   ├── app-store-optimizer.md
+│   ├── b2b-prospector.md
 │   ├── content-creator.md
 │   ├── growth-hacker.md
 │   ├── instagram-curator.md
+│   ├── linkedin-strategist.md
 │   ├── reddit-community-builder.md
 │   ├── tiktok-strategist.md
 │   └── twitter-engager.md
 ├── product/
+│   ├── business-process-analyst.md
 │   ├── feedback-synthesizer.md
 │   ├── sprint-prioritizer.md
 │   └── trend-researcher.md
@@ -71,6 +74,7 @@ contains-studio-agents/
 │   ├── finance-tracker.md
 │   ├── infrastructure-maintainer.md
 │   ├── legal-compliance-checker.md
+│   ├── proposal-sow-generator.md
 │   └── support-responder.md
 ├── testing/
 │   ├── api-tester.md
@@ -95,15 +99,18 @@ contains-studio-agents/
 - **test-writer-fixer** - Write tests that catch real bugs
 
 ### Product Department (`product/`)
+- **business-process-analyst** - Optimize workflows and business operations
 - **feedback-synthesizer** - Transform complaints into features
 - **sprint-prioritizer** - Ship maximum value in 6 days
 - **trend-researcher** - Identify viral opportunities
 
 ### Marketing Department (`marketing/`)
 - **app-store-optimizer** - Dominate app store search results
+- **b2b-prospector** - Find and engage high-value business customers
 - **content-creator** - Generate content across all platforms
 - **growth-hacker** - Find and exploit viral growth loops
 - **instagram-curator** - Master the visual content game
+- **linkedin-strategist** - Build professional networks and B2B relationships
 - **reddit-community-builder** - Win Reddit without being banned
 - **tiktok-strategist** - Create shareable marketing moments
 - **twitter-engager** - Ride trends to viral engagement
@@ -125,6 +132,7 @@ contains-studio-agents/
 - **finance-tracker** - Keep the studio profitable
 - **infrastructure-maintainer** - Scale without breaking the bank
 - **legal-compliance-checker** - Stay legal while moving fast
+- **proposal-sow-generator** - Create winning proposals and statements of work
 - **support-responder** - Turn angry users into advocates
 
 ### Testing & Benchmarking (`testing/`)
